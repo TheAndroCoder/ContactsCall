@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <group android:checkableBehavior="single" >
+
+      <item
+          android:id="@+id/Settings"
+          android:title="Settings"
+          android:icon="@drawable/settings"
+          ></item>
+      <item
+          android:id="@+id/BlockList"
+          android:title="Block List"
+          android:icon="@drawable/blocklist"
+          ></item>
+
+   <item android:title="Others">
+<menu>
+   <item
+       android:id="@+id/reportbug"
+       android:title="Report Bug"
+
+       android:icon="@drawable/bug"
+       ></item>
+   <item
+       android:id="@+id/rateus"
+       android:title="Rate App"
+       android:icon="@drawable/rateus"
+       ></item>
+   <item
+       android:id="@+id/faq"
+       android:title="FAQ"
+       android:icon="@drawable/faq"
+       ></item>
+   <item
+      android:id="@+id/share"
+       android:title="Share App"
+       android:icon="@drawable/ic_action_name"
+       ></item>
+   <item
+       android:id="@+id/aboutdev"
+       android:title="About Developer"
+       android:icon="@drawable/aboutdev"
+
+       ></item>
+
+</menu>
+
+   </item>
+
+   </group>
+
+
+</menu>
