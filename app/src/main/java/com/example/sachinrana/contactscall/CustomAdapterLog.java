@@ -54,7 +54,7 @@ public class CustomAdapterLog extends ArrayAdapter<DataModel> {
         final TextView number = (TextView) view.findViewById(R.id.numberhere);
         TextView calltime = (TextView) view.findViewById(R.id.time);
         ImageButton call = (ImageButton) view.findViewById(R.id.call);
-
+        //setting data to datamodel
         DataModel datapos=dataset.get(position);
         correctTime(datapos.getTime());
 
